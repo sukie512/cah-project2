@@ -5,19 +5,15 @@
   "scripts": {
     "start": "node_modules/.bin/medusa start",
     "build": "echo 'build complete'",
-    "develop": "node_modules/.bin/medusa develop",
     "seed": "node_modules/.bin/medusa seed --seed-file=data/seed.json"
   },
   "dependencies": {
-    "@medusajs/medusa": "1.20.6",
-    "@medusajs/medusa-cli": "1.3.22",
-    "@medusajs/event-bus-local": "1.9.9",
-    "@medusajs/cache-inmemory": "1.8.10",
+    "@medusajs/medusa": "1.18.1",
+    "@medusajs/medusa-cli": "1.3.21",
     "medusa-fulfillment-manual": "1.1.40",
     "medusa-payment-manual": "1.0.24",
     "medusa-interfaces": "1.3.9",
     "pg": "8.11.3",
-    "cross-env": "7.0.3",
     "dotenv": "16.3.1"
   },
   "engines": {
