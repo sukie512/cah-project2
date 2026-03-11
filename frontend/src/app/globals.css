@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;500;700;900&display=swap');
+
+:root {
+  --font-helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --cah-black: #000;
+  --cah-white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-helvetica);
+}
+
+body {
+  background: var(--cah-white);
+  color: var(--cah-black);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* CAH-style horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #000;
+}
+
+/* Carousel / marquee scroll */
+@keyframes scroll-x {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: scroll-x 20s linear infinite;
+}
+
+/* Fade-in on load */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp 0.5s ease forwards;
+}
+
+/* Cart slide-in */
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+.cart-drawer {
+  animation: slideIn 0.25s ease forwards;
+}

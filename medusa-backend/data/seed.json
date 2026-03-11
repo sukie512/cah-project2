@@ -1,0 +1,92 @@
+{
+  "regions": [
+    {
+      "name": "United States",
+      "currency_code": "usd",
+      "tax_rate": 0,
+      "payment_providers": ["manual"],
+      "fulfillment_providers": ["manual"],
+      "countries": ["us"]
+    }
+  ],
+  "shipping_options": [
+    {
+      "name": "Standard Shipping",
+      "region": "United States",
+      "provider": "manual",
+      "price_type": "flat_rate",
+      "amount": 599,
+      "data": {}
+    },
+    {
+      "name": "Free Shipping",
+      "region": "United States",
+      "provider": "manual",
+      "price_type": "flat_rate",
+      "amount": 0,
+      "data": {}
+    }
+  ],
+  "products": [
+    {
+      "title": "More Cards Against Humanity",
+      "description": "More Cards Against Humanity comes with 600 expansion cards that instantly double the replayability and girth of your deck.",
+      "status": "published",
+      "thumbnail": "https://img.cah.io/images/vc07edlh/production/5e64d25a746ed1ebc9d5025f935fc650a984a105-1400x1260.png",
+      "variants": [
+        {
+          "title": "Default",
+          "prices": [{ "amount": 2900, "currency_code": "usd" }],
+          "inventory_quantity": 100,
+          "manage_inventory": false
+        }
+      ],
+      "metadata": { "payload_slug": "more-cah" }
+    },
+    {
+      "title": "Tales Vol. 1",
+      "description": "A book of fill-in-the-blank stories to play with your CAH cards.",
+      "status": "published",
+      "thumbnail": "https://img.cah.io/images/vc07edlh/production/5de43bd46e3aca7e0dbbe441a5f27de1bb041cda-1401x1261.png",
+      "variants": [
+        {
+          "title": "Default",
+          "prices": [{ "amount": 1999, "currency_code": "usd" }],
+          "inventory_quantity": 100,
+          "manage_inventory": false
+        }
+      ],
+      "metadata": { "payload_slug": "tales-vol-1" }
+    },
+    {
+      "title": "Shit List",
+      "description": "A fresh way to play CAH where YOU write the answers, plus 80 black cards.",
+      "status": "published",
+      "thumbnail": "https://img.cah.io/images/vc07edlh/production/06e90cda6bff2b7f23e2998f3c0a18451649fc94-1400x1261.png",
+      "variants": [
+        {
+          "title": "Default",
+          "prices": [{ "amount": 2299, "currency_code": "usd" }],
+          "inventory_quantity": 100,
+          "manage_inventory": false
+        }
+      ],
+      "metadata": { "payload_slug": "shit-list" }
+    },
+    {
+      "title": "Twists Bundle",
+      "description": "It's like playing for the first time again, four more times.",
+      "status": "published",
+      "thumbnail": "https://img.cah.io/images/vc07edlh/production/20c0b3d96cc73ad923a6d8d25abf900d688fd80b-2801x2521.png",
+      "variants": [
+        {
+          "title": "Default",
+          "prices": [{ "amount": 5999, "currency_code": "usd" }],
+          "inventory_quantity": 100,
+          "manage_inventory": false
+        }
+      ],
+      "metadata": { "payload_slug": "twists-bundle" }
+    }
+  ]
+}
