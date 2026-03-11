@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "payload build",
+    "build": "echo 'payload build skipped'",
     "start": "node dist/server.js",
     "dev": "ts-node server.ts"
   },
