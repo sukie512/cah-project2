@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'payload build skipped'",
+    "build": "echo 'build skipped'",
     "start": "node dist/server.js",
     "dev": "ts-node server.ts"
   },
   "dependencies": {
-    "payload": "1.12.4",
-    "@payloadcms/bundler-webpack": "1.0.5",
-    "@payloadcms/db-mongodb": "1.0.2",
-    "@payloadcms/richtext-slate": "1.3.4",
+    "payload": "2.23.1",
+    "@payloadcms/bundler-webpack": "2.2.1",
+    "@payloadcms/db-mongodb": "2.7.2",
+    "@payloadcms/richtext-slate": "2.4.1",
     "express": "4.18.2",
     "dotenv": "16.3.1",
     "cross-env": "7.0.3"
@@ -20,7 +20,7 @@
   "devDependencies": {
     "typescript": "5.2.2",
     "@types/express": "4.17.21",
-    "@types/node": "18.17.0",
+    "@types/node": "20.0.0",
     "ts-node": "10.9.1"
   },
   "engines": {
